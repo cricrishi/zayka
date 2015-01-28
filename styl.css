@@ -1,0 +1,90 @@
+#footer
+{
+background-image:url('img01.jpg');
+
+background-repeat:no-repeat;
+}
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #7D7764;
+}
+hr{
+	margin-left:100px;
+margin-right:100px;
+}
+
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 140%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #731F1F;
+}
+#footer-content {
+	text-shadow: 1px 1px 1px #003E93;
+	color: #67C8E3;
+}
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+#footer-bg {
+	overflow: hidden;
+	padding: 30px 0px;
+}
+#column1 {
+	float: left;
+	width: 280px;
+	margin-right: 30px;
+}
+#column2 {
+	float: left;
+	width: 280px;
+	margin-right: 30px;
+}
+#column3 {
+	float: left;
+	width: 280px;
+}
+#column4 {
+	float: right;
+	width: 260px;
+}
+
+.list-style3 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.list-style3 li {
+	padding: 5px 0px 5px 0px;
+	background: url(images/img12.jpg) repeat-x left top;
+}
+
+.list-style3 a {
+	padding-left: 15px;
+	background: url(images/img13.jpg) no-repeat left 50%;
+	color: #717171;
+}
+
+.list-style3 a:hover {
+	text-decoration: underline;
+	color: #606060;
+}
+
+.list-style3 .first {
+	padding-top: 0px;
+	background: none;
+	border: none;
+}

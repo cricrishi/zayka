@@ -1,0 +1,10 @@
+#wrapper { width:300px; height:200px; position:relative; top:0; left:0; overflow:hidden;  margin:0 0 0 0; padding:0 0 0 0 ;}
+#container li{
+	list-style:none; }
+#container		{ position:relative;width:400%; height:100%; margin:0 0 0 0; padding:0 0 0 0 ;}
+.elements img{ width:25%; height:100%; float:left; }
+#cursor{ position: absolute;margin-top:-120px; margin-left:130px; z-index:1;}
+#left,#right{ position: absolute; display:none; background:#000000; width:30px; height:30px; border-radius:5em; opacity:.5;}
+
+#left{ left:-120px;}
+#right{ left:120px;}

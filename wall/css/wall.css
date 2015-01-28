@@ -1,0 +1,120 @@
+input#sfriend {
+	outline: none;
+}
+input#sfriend{
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+	padding:5px 0px 5px 5px;
+border: solid 1px #ccc;
+	border-radius:5px;
+	margin-left:-5px;
+}
+input#sfriend:focus{
+	border-color: #6dcff6;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+	
+	}
+
+.post{ padding:5px 5px 5px 5px; margin-bottom:20px; width:500px; overflow: auto; word-wrap: break-word;}
+.small_img{ width:60px; height:60px; float:left;}
+.small_img1{ width:35px; height:35px; float:left;}
+
+.pname{ text-transform:capitalize; color:#555; font-weight:600; margin-bottom:5px;}
+.ptext{ padding-left:70px;}
+a{ color:#09F; font-size:14px; padding-right:5px; cursor:pointer; text-decoration:none;}
+.timestamp{ color:#999;}
+
+.stcommentbody
+{
+
+
+border-bottom:solid 1px #fff;
+background-color:#f2f2f2;
+padding:5px ;
+padding-bottom:6px;
+width:400px;
+overflow:auto;
+}
+.stcommentimg
+{
+float:left;
+height:35px;
+width:35px;
+border:solid 1px #dedede;
+padding:2px;
+}
+.stcommenttext
+{
+margin-left:45px;
+word-wrap:break-word;
+overflow:hidden;
+padding:3px;
+font-size:15px;
+width:340px;
+
+}
+.stcommenttext b
+{
+color:#555;
+text-transform:capitalize;
+}
+
+.stcommenttime
+{
+font-size:11px;
+color:#999;
+font-family:Arial, Helvetica, sans-serif;
+margin-top:5px;
+}
+.stcommentdelete ,.postdelete
+{
+font-weight:bold;
+float:right;
+cursor:pointer;
+display:none;
+}
+.commentupdate
+{
+background-color:#f2f2f2;
+width:400px;
+padding:5px;
+}
+.comment
+{
+width:330px;
+height:35px;
+font-size:11px;
+}
+
+.plike,.clike{
+	font-size:14px;
+	margin-left:5px;
+	color:#09F;
+	cursor:pointer;
+	}
+.clike{ font-size:11px;}
+	
+.plikers,.clikers{
+	position:absolute;
+	background-color:#222;
+	opacity:1;
+	font-size:14px;
+	color:#FFFFFF;
+	text-transform:capitalize;
+	display:none;
+	margin-top:4px;
+	margin-left:7px;
+	padding:5px 5px 5px 5px;
+	
+	}	
+	
+.clikers{ opacity:1; background-color:#fff; font-size:11px;}	
